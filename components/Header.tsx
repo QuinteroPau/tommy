@@ -9,7 +9,6 @@ const navLinks = [
   { href: "#philosophie", label: "Philosophie" },
   { href: "#kreationen", label: "Kreationen" },
   { href: "#events-angebote", label: "Events" },
-  { href: "#projekte", label: "SOY & SOUL" },
   { href: "#contacto", label: "Kontakt" },
 ];
 
@@ -37,6 +36,12 @@ export default function Header() {
               {label}
             </Link>
           ))}
+          <Link
+            href="#projekte"
+            className="text-white text-sm font-medium bg-carbon px-4 py-2 rounded-sm hover:bg-[#2A2A28] transition-colors"
+          >
+            SOY & SOUL
+          </Link>
         </nav>
 
         {/* Hamburger button - min 44px touch target */}
@@ -85,6 +90,13 @@ export default function Header() {
               {label}
             </Link>
           ))}
+          <Link
+            href="#projekte"
+            onClick={() => setOpen(false)}
+            className="py-3 px-2 text-white font-medium bg-carbon hover:bg-[#2A2A28] rounded-md transition-colors min-h-[44px] flex items-center"
+          >
+            SOY & SOUL
+          </Link>
         </nav>
       </div>
     </header>
