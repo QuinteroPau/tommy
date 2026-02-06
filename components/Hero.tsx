@@ -26,7 +26,7 @@ export default function Hero() {
 
       <div
         className="absolute inset-0"
-        style={{ backgroundColor: "rgba(0,0,0,0.45)" }}
+        style={{ backgroundColor: "rgba(0,0,0,0.30)" }}
         aria-hidden
       />
 
