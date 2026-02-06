@@ -17,10 +17,11 @@ export default function Contact() {
         >
           Kontakt
         </h2>
-        <p className="text-carbon-muted max-w-xl mx-auto mb-8 sm:mb-10 font-sans">
-          Private Cooking, Kochkurse oder Events im Handelszentrum 16 — für
-          Firmenfeiern, B2B-Events oder Geburtstage. Schreiben Sie mir, ich
-          melde mich zeitnah.
+        <p className="text-carbon-muted max-w-xl mx-auto mb-6 font-sans">
+          Für Anfragen zu Events, Kochkursen oder Kooperationen.
+        </p>
+        <p className="text-carbon-muted/80 text-sm font-sans mb-8 sm:mb-10">
+          Handelszentrum 16, 5101 Bergheim, Österreich
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a

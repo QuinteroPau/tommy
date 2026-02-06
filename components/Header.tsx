@@ -5,7 +5,11 @@ import Link from "next/link";
 
 const navLinks = [
   { href: "#hero", label: "Start" },
+  { href: "#uber-tommy", label: "Über Tommy" },
+  { href: "#philosophie", label: "Philosophie" },
   { href: "#kreationen", label: "Kreationen" },
+  { href: "#events-angebote", label: "Events" },
+  { href: "#projekte", label: "SOY & SOUL" },
   { href: "#contacto", label: "Kontakt" },
 ];
 
@@ -64,7 +68,7 @@ export default function Header() {
       {/* Mobile menu */}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ease-out ${
-          open ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+          open ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <nav

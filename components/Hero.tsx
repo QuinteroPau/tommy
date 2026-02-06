@@ -35,7 +35,7 @@ export default function Hero() {
           Tommy Eder
         </h1>
         <p className="mt-4 sm:mt-5 text-lg sm:text-xl text-white/90 font-sans font-normal max-w-xl mx-auto">
-          Private Cooking & exklusive Kochkurse. Vom Hangar 7 ins Handelszentrum 16 — Gourmetküche für jedermann.
+          Private Cooking · Kochkurse · Spitzengastronomie
         </p>
         <div
           className="mt-6 sm:mt-8 h-px w-24 sm:w-32 mx-auto bg-gold-light"
@@ -43,6 +43,27 @@ export default function Hero() {
           aria-hidden
         />
       </div>
+
+      {/* Scroll indicator */}
+      <a
+        href="#uber-tommy"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce"
+        aria-label="Nach unten scrollen"
+      >
+        <svg
+          className="w-6 h-6 text-white/80"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
+        </svg>
+      </a>
     </section>
   );
 }
