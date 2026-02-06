@@ -1,7 +1,7 @@
 "use client";
 
 const SOY_SOUL_URL = "https://www.soyandsoul.com";
-const HANDELSZENTRUM_URL = "https://www.handelszentrum16.at";
+const HANDELSZENTRUM_URL = "https://www.handelszentrum16.at/blog/gastro/tommy-eder/";
 
 // Deine E-Mail hier eintragen, damit der Chef dich für die Webpräsenz kontaktieren kann
 const DEMO_AUTHOR_EMAIL = "mailto:deine-email@beispiel.at";
